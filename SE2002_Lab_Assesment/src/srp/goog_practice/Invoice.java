@@ -1,0 +1,15 @@
+public class Invoice {
+    private double amount;
+
+    public Invoice(double amount) {
+        this.amount = amount;
+    }
+
+    public void calculateTotal() {
+        this.amount = this.amount * 1.20;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+}
